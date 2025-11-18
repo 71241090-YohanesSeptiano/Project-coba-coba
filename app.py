@@ -1,7 +1,7 @@
 import streamlit as st
 from src.data_manager import authenticate_user, register_user
 # 1. KITA TAMBAHKAN IMPORT INI
-from src.api_client import cari_resep_spoonacular 
+# from src.api_client import cari_resep_spoonacular 
 
 # (Kita akan butuh ini nanti)
 # from src.gemini_client import tanya_ai_gemini 
