@@ -19,14 +19,14 @@ def handle_login(username, password):
     if authenticate_user(username, password):
         st.session_state['logged_in'] = True
         st.session_state['username'] = username
-        st.rerun() 
+        # st.rerun() 
     else:
         st.error("Username atau password salah.")
 
 def handle_logout():
     st.session_state['logged_in'] = False
     st.session_state['username'] = ""
-    st.rerun() 
+    # st.rerun() 
 
 # --- TAMPILAN UTAMA ---
 
